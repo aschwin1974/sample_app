@@ -19,3 +19,9 @@ def duplicate
   puts "#{@tmp_pwd}" 
   puts "#{@i}"
 end
+
+class String
+  def shuffle
+    self.split('').shuffle.join
+  end
+end
